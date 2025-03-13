@@ -12,6 +12,7 @@
   - Cube에 Drag and Drop
   - Script에 아래 Code 추가
 ```CS
+
 using System.Runtime.InteropServices;
 using UnityEngine;
 public class NewMonoBehaviourScript : MonoBehaviour
@@ -28,6 +29,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     }
 }
+
 ```
 - Unity Editor에서 `Play` Button 클릭하면 움직이는 Cube 확인 가능
 
@@ -73,5 +75,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
   
 #### RigidBody
 - Object에 물리 기능을 추가하는 Component
+  
 #### Corrider
 - Object 표면을 감지하기 위한 경계계
